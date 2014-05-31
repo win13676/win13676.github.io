@@ -1,0 +1,52 @@
+p {
+  color: green
+}
+.myheader {
+  background-color: #FF9900;
+  color: #6699FF;
+}
+.mypara {
+  color: red;
+}
+.mypara.big {
+  color: blue;
+}
+.big {
+  font-size: 500%;
+}
+i {
+  display: block;
+  font-size: 2em;
+  color: white;
+  margin: 10px;
+  background-color: black;
+  text-align: center;
+  <-- block take up whole row, push next element down-->
+}
+j {
+  border: 2px dotted red;
+  display: inline;
+  vertical-align: bottom;
+  padding: 5px 10px 20px 10px;
+  color: yellow;
+  background-color: grey;
+}
+
+p:hover {
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: yellow;
+}
+
+.btn-danger:visited {
+}
+
+.btn-danger:focus {
+  background-color: black;
+}
+
+.btn-danger:active {
+  background-color: grey;
+}
